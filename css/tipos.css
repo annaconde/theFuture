@@ -1,0 +1,98 @@
+:root {
+    --cor-de-fundo: #54A3C4;
+    --fonte-titulo: "Roboto";
+    --fonte-texto: "Readex Pro";
+    --cor-cinza: #445964;
+    --cor-cinza-escuro: #263138;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.pagUnica {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.setaVoltar {
+    margin: 2.4em 1em;
+}
+
+.imgUm {
+    width: 35%;
+    margin-top: 40%;
+    margin-right: 70%;
+}
+
+.pagUnica__titulo {
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    font-size: 30px;
+    margin: 1em 0;
+}
+
+.pagUnica__paragrafoUm, .pagUnica__paragrafoDois, .pagUnica__paragrafoTres {
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-cinza-escuro);
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 2em;
+    max-width: 70%;
+   
+}
+
+.pagUnica__subtitulo, .pagUnica__subtituloDois {
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.imgDois {
+    max-width: 40%;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+.imgTres {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 70%;
+}
+
+.rodape {
+    padding: 2em;
+    background-color: white;
+}
+
+.rodape__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitulo {
+    font-size: 22px;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    display: flex;
+    margin-left: 0.5em;
+}
+
+.rodape__texto {
+    font-family: var(--fonte-texto);
+    font-weight: 300;
+    font-size: 18px;
+    margin: 1em 0;
+    max-width: 70%;
+}
